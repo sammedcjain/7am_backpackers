@@ -1,0 +1,250 @@
+.login{
+  text-align:center;margin:auto;background:#1A1A1A;padding:15px 0 15px 0
+}
+
+.login_cont{
+  background: #1A1A1A;
+}
+
+.hill{
+  margin-bottom:20px;
+  margin-top: 10px;
+  max-height: 300px;
+}
+.first_head{
+  text-align: center;
+  margin-bottom: 0;
+}
+.Backpackers{
+  font-size: 100px;
+   font-family: 'Caveat', cursive;
+   margin-top:-35px;
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+}
+.title{
+  margin-top:20px;
+  font-family: 'Caveat', cursive;
+  font-size: 140px;
+  color: #90ee90;
+}
+.caro1{
+  max-height:600px;
+  width:auto;
+}
+
+.hill,
+.caro1 {
+  max-width: 90%;
+  height: auto;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+  background: #1A1A1A;
+}
+.navbar-brand {
+  color:lightgreen;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.nav-link {
+  color:lightgreen;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 1.5rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.nav-link:hover {
+  color:green;
+}
+.navbar-brand:hover{
+  color:green;
+}
+#hero {
+  padding: 5rem 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+#hero button {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  border-radius: 50px;
+  margin-top: 3rem;
+}
+
+.carousel{
+  background-color: #1A1A1A;
+}
+
+.carousel-item{
+  text-align:center;
+}
+
+.main_heading{
+  font-size: 150px;
+  color:lightgreen;
+}
+.inside_heading{
+  margin:auto;
+  font-size: 85px;
+  color:lightgreen;
+  max-width:1000px;
+}
+#features {
+  background: black;
+  padding-top: 5rem;
+  padding-bottom: 30px;
+}
+
+#features h2 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.card_width{
+  height: 330px;
+}
+.card {
+  background-color: #1A1A1A;
+  border: none;
+}
+
+.card-title {
+  color:lightgreen;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 22px;
+  line-height: 2rem;
+}
+
+.color-green{
+  color: lightgreen;
+  font-size:35px;
+}
+
+.btn-warning{
+  background:lightgreen;
+   border-color: lightgreen;
+}
+
+.btn-warning:hover{
+  background:green;
+  border-color: green;
+}
+
+footer {
+    background: #3e8e41;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  color: #333333;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 18px;
+  color: #333333;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 120px;
+  }
+
+  .Backpackers {
+    font-size: 80px;
+  }
+  .login{
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hill{
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  #features h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  #features h3 {
+    font-size: 25px;
+  }
+  #features p {
+    font-size: 20px;
+  }
+  #login h2 {
+    font-size: 28px;
+  }
+  .color-green {
+    font-size: 25px;
+  }
+  .card_width{
+    height: 250px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
